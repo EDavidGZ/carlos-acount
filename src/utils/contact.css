@@ -1,0 +1,47 @@
+.contact{
+    height: 120vh;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    background: var(--fondo1);
+}
+.form{
+    padding: 1rem;
+}
+.card{
+    width: 78%; 
+    padding: 1rem;
+    margin: 0 auto;
+    background: var(--color-primary-vaiant);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.271);
+    border: none;
+    color: var(--color-three);
+}
+.tt{
+    font-size: 1.8rem;
+    font-family: 'Franklin Gothic Medium';
+}
+.tt2{
+    font-size: 1.6rem;
+    font-family: 'Franklin Gothic Medium';
+}
+.form-control{
+    padding: .5rem;
+}
+
+.form-control:hover{
+    box-shadow: none;
+}
+.form-control::after{
+    box-shadow: none;
+}
+@media screen and (max-width: 600px) {
+    .contact{
+        height: 150vh;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        background: var(--fondo1);
+    }
+    
+}
