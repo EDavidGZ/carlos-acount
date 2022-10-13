@@ -43,7 +43,7 @@ const About = () => {
           ))}
         </div>
       </div>
-      <div style={{ width: '30%', marginLeft: '4%', marginTop: '4rem' }}>
+      <div style={{ width: '30%', marginLeft: '4%', marginTop: '10rem' }}>
         <Link to='/Servicios' className='btn btn-outline-light'>Services</Link>
       </div>
       <Footer />
