@@ -1,40 +1,22 @@
 import React from 'react'
-import { BsCheck } from 'react-icons/bs'
-import Nav from '../nav/Nav'
-import { Link } from 'react-router-dom'
-import Footer from '../footer/Footer'
+import '../home/home.css'
+import Me from '../../img/me.png'
+
+
 const Servicios = () => {
   return (
-    <div className='services'>
-      <Nav />
-      <div className='about1'>
-        <div>
-          <h2 className='ts'>Certified Public Accountant</h2>
-          <p className='ts2'>We help you comply with your tax obligations and advise you in a timely manner to avoid high tax payments.</p>
+    <div className='me'>
+      <div>
+        <div className='yo'>
+             <img src={Me} alt="yo" className='mine' />
         </div>
 
-        <div>
-
-          <ul>
-            <li className='list-group-item ts3'>
-              <BsCheck />accounting services
-            </li>
-            <li className='list-group-item ts3'>
-              <BsCheck />Provisional payments
-            </li>
-            <li className='list-group-item ts3'>
-              <BsCheck />Annual statement
-            </li>
-            <li className='list-group-item ts3'>
-              <BsCheck />financial statements
-            </li>
-          </ul>
-          <div style={{ width: '30%', marginLeft: '4%', marginTop: '4rem' }}>
-        <Link to='/Contact' className='btn btn-outline-light'>Contact</Link>
       </div>
+      <div className='text-me'>
+        <h1 style={{fontSize: "3rem"}}>Charly</h1><br />
+        <p style={{fontSize: "1.2rem", marginTop: "1.5rem"}}>Es tu asistente contable, el cual te ayudara a gestionar de manera más fácil y sencilla tu empresa.
 
-        </div>
-      <Footer />
+Contamos con herramientas de facturacion,Inventario, CRM, clientes y mesa de ayuda, con el objetivo de brindar al cliente todas las comodidades e implementarlas dentro de esta gran plataforma.</p>
       </div>
     </div>
   )

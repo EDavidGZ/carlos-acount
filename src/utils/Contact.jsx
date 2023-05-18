@@ -2,7 +2,6 @@ import React from 'react'
 import './contact.css'
 import Nav from '../Components/nav/Nav'
 import emailjs from '@emailjs/browser'
-import Footer from '../Components/footer/Footer'
 
 
 const Contact = () => {
@@ -35,7 +34,6 @@ const Contact = () => {
 
             </form>
         </div>
-        <Footer />
         </div>
     )
 }
